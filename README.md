@@ -18,5 +18,5 @@ Using binary search both to check whether in "calculated" but also where to add 
 Using *dict* as ordered set, same principle but different realization, save 90% of the time based on time needed for six-digit black hole number using Version1.0.
 ## Version3.0
 Use the method **Riddle** to avoid "equal" numbers in the situation of finding black hole numbers. Save 1% more than Version2.3.
-
-
+## Version3.1
+Using a generator to directly generate "candidates" for search. And effectively lower the time  needed for searching.sm
