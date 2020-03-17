@@ -28,6 +28,6 @@ if __name__ == '__main__':
     for number in range(start, end+1):
         black_hole_numbers.add(find_black_hole_number(number))
     black_hole_numbers.remove(0)  # Remove "fake" black hole number 0 caused by those numbers with no different digits.
-    black_hole_list = list(black_hole_numbers)
-    for black_hole in format_black_holes(black_hole_list):
+    black_hole_numbers = list(black_hole_numbers)
+    for black_hole in format_black_holes(black_hole_numbers):
         print(black_hole)
